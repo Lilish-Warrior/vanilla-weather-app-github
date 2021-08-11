@@ -34,6 +34,10 @@
   top: -34px;
 }
 
+.link-git {
+  color: #a662ff;
+}
+
 #enter-a-city {
   background-color: #f9f6fd;
   border: none;
