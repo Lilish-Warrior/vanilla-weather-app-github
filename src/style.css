@@ -18,20 +18,24 @@
 }
 
 .bold-temperature strong {
-  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
   font-weight: 400;
+  color: #504f4f;
   line-height: 1;
+  position: relative;
+  top: -60px;
 }
 
 .botton-celsius {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -110px;
 }
 .botton-farenheit {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -110px;
 }
 
 .link-git {
