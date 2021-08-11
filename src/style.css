@@ -13,13 +13,6 @@
   width: 150px;
 }
 
-.presenting-app {
-  font-style: italic;
-  font-size: 8px;
-  position: relative;
-  left: 100px;
-}
-
 .line-dividing {
   border: 3px solid #f79cba;
 }
@@ -40,6 +33,18 @@
   font-size: 16px;
   top: -34px;
 }
+
+#enter-a-city {
+  background-color: #f9f6fd;
+  border: none;
+  color: rgb(29, 29, 29);
+}
+
+#button-addon2 {
+  background-color: #f79cba;
+  border: none;
+}
+
 h1 {
   color: #a662ff;
   font-weight: 100;
