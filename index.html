@@ -47,18 +47,24 @@
           </div>
 
           <hr class="line-dividing" />
-          <h1>Melbourne</h1>
+          <h1 id="city">Melbourne</h1>
           <div class="row">
             <div class="col-6">
               <ul>
-                <li>Wednesday 12:30, clear</li>
-                <li>Humidity: 50%</li>
-                <li>Wind: 5 km/h</li>
+                <li>
+                  <span id="#current-date">Wednesday </span>
+                  <span id="#current-time">12:30</span>
+                  <span id="weather-description">clear</span>
+                </li>
+                <li>Humidity: <span id="#humidity">50%</span></li>
+                <li>Wind: <span id="#wind">5</span>k/h</li>
               </ul>
             </div>
             <div class="col-6" style="height: 10px">
               <i class="far fa-sun" id="sun-icon"></i>
-              <span class="bold-temperature"> <strong>10</strong></span>
+              <span class="bold-temperature">
+                <strong id="temperature">10</strong></span
+              >
               <span class="botton-celsius">°C |</span>
               <span class="botton-farenheit">°F</span>
             </div>
