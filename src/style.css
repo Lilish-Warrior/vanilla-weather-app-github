@@ -28,25 +28,34 @@
   left: 50px;
 }
 
-.botton-celsius {
+.units {
   position: relative;
   font-size: 16px;
   top: -70px;
   left: 50px;
 }
-.botton-farenheit {
-  position: relative;
-  font-size: 16px;
-  top: -70px;
-  left: 50px;
+.weather-temperature .units .active {
+  color: #504f4f;
+  cursor: default;
+  text-decoration: none;
 }
-#sun-icon {
+
+#celsius-link {
+  text-decoration: none;
+  cursor: default;
+}
+#farenheit-link {
+  text-decoration: none;
+  cursor: default;
+}
+
+/* #sun-icon {
   position: relative;
   color: #504f4f;
   font-size: 50px;
   top: -50px;
   left: 50px;
-}
+} */
 .link-git {
   color: #a662ff;
 }
@@ -87,4 +96,3 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-

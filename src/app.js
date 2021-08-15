@@ -56,12 +56,17 @@ form.addEventListener("submit", handleSubmit);
 function displayFarenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
+  celsiusLink.classList.remove("active");
+  farenheitLink.classList.add("active");
   let farenheitTemp = (celciusTemp * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(farenheitTemp);
 }
 function displayCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
+  celsiusLink.classList.add("active");
+  farenheitLink.classList.remove("active");
+
   temperatureElement.innerHTML = Math.round(celciusTemp);
 }
 
@@ -72,3 +77,5 @@ farenheitLink.addEventListener("click", displayFarenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsius);
+
+search("Paris");
