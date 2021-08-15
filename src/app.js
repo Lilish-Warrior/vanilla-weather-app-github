@@ -29,8 +29,18 @@ function displayWeatherCondition(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
 
-let apiKey = "9e38b432e6a4b2912f3775e17cf35501";
-let city = "London";
-let units = "metric";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
-axios.get(apiUrl).then(displayWeatherCondition);
+function search(city) {
+  let apiKey = "9e38b432e6a4b2912f3775e17cf35501";
+  let units = "metric";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
+  axios.get(apiUrl).then(displayWeatherCondition);
+}
+
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInput = document.querySelector("#city-input");
+  search(cityInput.value);
+}
+
+let form = document.querySelector("#search-from");
+form.addEventListener("submit", handleSubmit);
