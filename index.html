@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Montserrat:wght@500;700&family=Raleway:wght@600&display=swap"
       rel="stylesheet"
     />
-  
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App by Lilish</title>
@@ -39,8 +39,7 @@
                 type="submit"
                 value="Search"
                 id="search-button"
-              >
-            </input>
+              />
             </div>
           </form>
 
@@ -61,16 +60,31 @@
 
             <div class="col-8" style="height: 10px">
               <div class="weather-temperature">
-
-                <img src="" alt="Clear" id="icon">
+                <img src="" alt="Clear" id="icon" />
                 <span class="bold-temperature">
                   <strong id="temperature"></strong>
                 </span>
-                <span class="units"> <a href="#" id="celsius-link" class="active">°C </a>|
-                <a href="#" id="farenheit-link" >°F</a></span>
+                <span class="units">
+                  <a href="#" id="celsius-link" class="active">°C </a>|
+                  <a href="#" id="farenheit-link">°F</a></span
+                >
               </div>
-
-   
+            </div>
+            <div class="weather-forecast">
+              <div class="row">
+                <div class="col-2">
+                  <div class="weather-forecast-date">Sun</div>
+                  <img
+                    src="http://openweathermap.org/img/wn/50d@2x.png"
+                    alt=""
+                    width="42"
+                  />
+                  <div class="weather-forecast-temperature">
+                    <span class="weather-forecast-temp-max"> 18° </span>
+                    <span class="weather-forecast-temp-min"> 12° </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
