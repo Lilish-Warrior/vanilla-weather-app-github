@@ -23,6 +23,8 @@ function displayWeatherCondition(response) {
   let iconElement = document.querySelector("#icon");
 
   celciusTemp = response.data.main.temp;
+  celsiusLink.classList.add("active");
+  farenheitLink.classList.remove("active");
 
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   cityElement.innerHTML = response.data.name;

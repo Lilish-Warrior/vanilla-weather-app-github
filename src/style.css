@@ -45,10 +45,17 @@
   top: -60px;
   left: 50px;
 }
-.weather-temperature .units .active {
+
+.units a {
+  color: #a662ff;
+  font-weight: normal;
+}
+
+.units .active {
   color: #504f4f;
   cursor: default;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 #celsius-link {
