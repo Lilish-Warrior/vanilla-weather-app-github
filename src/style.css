@@ -9,16 +9,19 @@
   border-radius: 10px;
 }
 
-.top-image {
-  width: 150px;
+#enter-a-city {
+  background-color: #f9f6fd;
+  border: none;
+  color: rgb(29, 29, 29);
+}
+
+#search-button {
+  background-color: #f79cba;
+  border: none;
 }
 
 .line-dividing {
   border: 3px solid #f79cba;
-}
-
-#weather-description {
-  text-transform: capitalize;
 }
 
 .bold-temperature strong {
@@ -30,6 +33,10 @@
   position: relative;
   top: -30px;
   left: 40px;
+}
+
+#weather-description {
+  text-transform: capitalize;
 }
 
 .units {
@@ -58,26 +65,9 @@
   top: -50px;
   left: 50px;
 }
-/* #sun-icon {
-  position: relative;
-  color: #504f4f;
-  font-size: 50px;
-  top: -50px;
-  left: 50px;
-} */
+
 .link-git {
   color: #a662ff;
-}
-
-#enter-a-city {
-  background-color: #f9f6fd;
-  border: none;
-  color: rgb(29, 29, 29);
-}
-
-#search-button {
-  background-color: #f79cba;
-  border: none;
 }
 
 h1 {
