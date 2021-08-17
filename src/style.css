@@ -75,6 +75,11 @@
 
 .link-git {
   color: #a662ff;
+  text-decoration: none;
+}
+
+#bottom-link {
+  position: 0 auto;
 }
 
 h1 {
