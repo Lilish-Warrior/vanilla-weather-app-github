@@ -128,3 +128,18 @@ li:first-letter {
 .weather-forecast-temp-min {
   opacity: 70%;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  .bold-temperature strong {
+  font-size: 30px;
+  }
+  .units {
+  position: relative;
+  font-size: 12px;
+  top: -60px;
+  left: 30px;
+}
+}
