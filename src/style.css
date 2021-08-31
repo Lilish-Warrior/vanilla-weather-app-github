@@ -31,7 +31,7 @@
   color: #504f4f;
   line-height: 1;
   position: relative;
-  top: -30px;
+  top: -10px;
   left: 40px;
 }
 
@@ -42,7 +42,7 @@
 .units {
   position: relative;
   font-size: 16px;
-  top: -60px;
+  top: -40px;
   left: 50px;
 }
 
@@ -65,11 +65,12 @@
 #farenheit-link {
   text-decoration: none;
   cursor: default;
+
 }
 
 #icon {
   position: relative;
-  top: -50px;
+  top: -30px;
   left: 50px;
 }
 
@@ -131,15 +132,27 @@ li:first-letter {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .bold-temperature strong {
-  font-size: 30px;
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+    left: 10px;
   }
   .units {
-  position: relative;
-  font-size: 12px;
-  top: -60px;
-  left: 30px;
-}
+    position: relative;
+    font-size: 12px;
+    top: -60px;
+    left: -10px;
+  }
+ 
+  li {
+    font-size: 10px;
+  }
+  #icon {
+    position: relative;
+    top: -30px;
+    left: 30px;
+  }
 }
